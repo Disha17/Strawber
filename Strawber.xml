@@ -33,9 +33,9 @@
               </block>
             </value>
             <next>
-              <block type="movement_forward" id="134">
+              <block type="movement_reverse" id="184">
                 <next>
-                  <block type="movement_left" id="144"></block>
+                  <block type="movement_left" id="194"></block>
                 </next>
               </block>
             </next>
