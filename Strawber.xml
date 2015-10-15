@@ -1,4 +1,7 @@
 <xml xmlns="http://www.w3.org/1999/xhtml">
+  <block type="math_number" id="95" x="-50" y="98">
+    <field name="NUM">0</field>
+  </block>
   <block type="controls_whileUntil" id="1" inline="false" x="274" y="132">
     <field name="MODE">UNTIL</field>
     <value name="NUMBER">
@@ -33,17 +36,7 @@
               </block>
             </value>
             <next>
-              <block type="movement_reverse" id="79">
-                <next>
-                  <block type="robot_delay" id="81" inline="true">
-                    <value name="DELAY">
-                      <block type="math_number" id="88">
-                        <field name="NUM">0</field>
-                      </block>
-                    </value>
-                  </block>
-                </next>
-              </block>
+              <block type="movement_reverse" id="79"></block>
             </next>
           </block>
         </statement>
@@ -52,7 +45,7 @@
             <field name="OP">LT</field>
             <value name="A">
               <block type="sensor_object" id="11">
-                <field name="OBJECT">LEFTFRONT</field>
+                <field name="OBJECT">RIGHTFRONT</field>
               </block>
             </value>
             <value name="B">
@@ -70,14 +63,13 @@
                 <field name="NUM">5</field>
               </block>
             </value>
+            <next>
+              <block type="movement_left" id="59"></block>
+            </next>
           </block>
         </statement>
         <statement name="ELSE">
-          <block type="movement_left" id="59">
-            <next>
-              <block type="movement_forward" id="69"></block>
-            </next>
-          </block>
+          <block type="movement_forward" id="69"></block>
         </statement>
         <next>
           <block type="robot_delay" id="17" inline="true">
