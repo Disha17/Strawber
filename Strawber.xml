@@ -1,7 +1,4 @@
 <xml xmlns="http://www.w3.org/1999/xhtml">
-  <block type="math_number" id="95" x="-50" y="98">
-    <field name="NUM">0</field>
-  </block>
   <block type="controls_whileUntil" id="1" inline="false" x="274" y="132">
     <field name="MODE">UNTIL</field>
     <value name="NUMBER">
