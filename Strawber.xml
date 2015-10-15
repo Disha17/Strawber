@@ -46,7 +46,7 @@
             <field name="OP">LT</field>
             <value name="A">
               <block type="sensor_object" id="12">
-                <field name="OBJECT">LEFTFRONT</field>
+                <field name="OBJECT">REAR</field>
               </block>
             </value>
             <value name="B">
